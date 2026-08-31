@@ -3,6 +3,11 @@
 
 Here, we present an adapted and modified version of Mustache (Roayaei Ardakany et al. 2020) called `Wloops` which detects chromatin loops from Hi-C contact maps.
 
+Mustache detects chromatin loops as blob-like structures in Hi-C contact maps by detecting maxima in Difference-of-Gaussians (DoG) responses in the Hi-C maps. Unlike many loop callers that compute statistical significance directly from raw contact counts, Mustache computes significance from DoG response, treating loops as image features rather than count outliers. Mustache uses an exponential distribution to model the DoG values in a local neighborhood of a loop candidate (Roayaei Ardakany et al. 2020). Therefore, Mustache outperforms the other methods and stands out as a preferred choice for chromatin loop detection. However, the Mustache paper lacks empirical evidence on the choice of background distribution. 
+In this paper, we present preliminary analysis that shows that the Weibull distribution (not exponential distribution used in the Mustache paper (Roayaei Ardakany et al. 2020)) fits the background DoG responses the best and significance levels assigned to Blobs using a background Weibull distribution uncovers previously uncovered chromatin loops. The detected loops are supported by Aggregated Peak Analysis (APA) enrichment and APS plots. These loops have strong biological evidence of overlap with binding of structural proteins (CTCF and the Cohesin complex) involved in loop formation. Chromatin interactions uncovered from other experiments such as ChIA-PET and HiCHiP also overlap with the detected loops. The results show that choosing the wrong background model can miss detecting chromatin loops that may have biological relevance.
+
+
+
 ## Installation and Dependencies
 
 - Please see Github page of Mustache tool https://github.com/ay-lab/mustache/tree/master for dependencies required.
