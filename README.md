@@ -90,5 +90,5 @@ For each chromosome, PySmooth Generates the following outputs.
 
 
 ### References
-van Os,H. et al. (2005) SMOOTH: a statistical method for successful removal of genotyping errors from high-density genetic linkage data. Theor. Appl. Genet., 112, 187–94.
+Roayaei Ardakany A, Gezer HT, Lonardi S, Ay F. 2020. Mustache: multi-scale detection of chromatin loops from Hi-C and Micro-C maps using scale-space representation. Genome Biol. 21(1):256. https://doi.org/10.1186/s13059-020-02167-0.
 
