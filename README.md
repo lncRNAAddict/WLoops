@@ -31,27 +31,13 @@ Similar to `Musatche`, `WLoops` can be executed in different ways (Please see mo
 - `-B` or `--background`: user can provide `E` for exponential background or `W` for the Weibull background.
 
 
-### Outputs
+### Example executing `WLoops`
 
+`wget ftp://cooler.csail.mit.edu/coolers/hg19/Rao2014-GM12878-MboI-allreps-filtered.5kb.cool
+mustache -f ./Rao2014-GM12878-MboI-allreps-filtered.5kb.cool -ch chr12 chr19 -r 5kb -pt 0.05 -o cooler_out.tsv
+OR
+mustache -f ./Rao2014-GM12878-MboI-allreps-filtered.5kb.cool -r 5kb -pt 0.05 -o cooler_out.tsv`
 For each chromosome, PySmooth Generates the following outputs.
-
-- Three summary csv files: `<output>_<chr>.stats.csv`, `<output>_<chr>_singletons_stats.csv`, and `<output>_<chr>_imputed_stats.csv` that contain `%` of homozygous, heterozygous calls for each individual for the raw genoytpe file, after singleton detection, and after error correction. An example file for the `<output>_<chr>_singletons_stats.csv` is shown below. The files not only indicate the number of singletons detected in each sample but also the fraction from each category of genotype call detected as singletons.
-
-  ![alt text](https://github.com/lncRNAAddict/PySmooth/blob/main/example/singleton_stats.JPG)
-
-
-- Three bar plot png files: `<output>_<chr>.stats.png`, `<output>_<chr>_singletons_stats.png`, and `<output>_<chr>_imputed_stats.png` bar plot files that contains `%` of homozygous, heterozygous calls for each individual for the raw genoytpe file, after singleton detection, and after error correction, respectively. Example images are shown below.
-
-![alt text](https://github.com/lncRNAAddict/PySmooth/blob/main/example/Slide3.PNG)
-
-- Three heatmap files: `<output>_<chr>.heatmap.png`, `<output>_<chr>_singletons_heatmap.png`, and `<output>_<chr>_imputed_heatmap.png` that visualize a color-coded image of different genotype codes in the original file, after singleton detection, and after error correction, respectively. Example images are shown below.
-
-![alt text](https://github.com/lncRNAAddict/PySmooth/blob/main/example/Slide2.PNG)
-
-- `<output>_<chr>_singletons.csv`: genotype file with singleton detected. Singletons are marked as `S`. 
-- `<output>_<chr>_imputed.csv`: genotype file after error correction.
-
-
 
 
 ### References
