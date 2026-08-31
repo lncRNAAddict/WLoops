@@ -4,7 +4,12 @@
 Here, we present an adapted and modified version of Mustache (Roayaei Ardakany et al. 2020) called `Wloops` which detects chromatin loops from Hi-C contact maps.
 
 ## Installation and Dependencies
-Please see Github page of Mustache tool
+
+- Please see Github page of Mustache tool https://github.com/ay-lab/mustache/tree/master for dependencies required.
+- Make sure you have Python >=3.6 installed, along with all the dependencies listed.
+- 
+
+
 
 `PySmooth` can be executed by running the script `run_smooth.py`
 
