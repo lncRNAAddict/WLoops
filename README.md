@@ -30,7 +30,7 @@ Similar to `Musatche`, `WLoops` can be executed in different ways (Please see mo
   
 ### Parameters
 
-`WLoops` takes all the arguments that `Mustache` takes. `WLoops` take one additional argument `-B or --background`.
+`WLoops` takes all the arguments that `Mustache` takes. `WLoops` takes one additional argument `-B or --background`.
 
 - `-B` or `--background`: user can provide `E` for exponential background or `W` for the Weibull background.
 
