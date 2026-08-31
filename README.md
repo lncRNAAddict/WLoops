@@ -8,6 +8,7 @@ Mustache detects chromatin loops as blob-like structures in Hi-C contact maps by
 We show that the Weibull distribution (not exponential distribution used in the Mustache paper (Roayaei Ardakany et al. 2020)) fits the background DoG responses the best and significance levels assigned to Blobs using a background Weibull distribution uncovers previously uncovered chromatin loops. 
 
 `Example chromatin state network file`
+
 ![](https://github.com/lncRNAAddict/WLoops/tree/main/Images/Figures.tif)
 
 
