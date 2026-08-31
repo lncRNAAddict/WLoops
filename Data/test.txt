@@ -1,2 +1,4 @@
 
-https://s3.amazonaws.com/4dn-dcic-public/hic-data-analysis-bootcamp/Rao2014-GM12878-MboI-allreps-filtered.5kb.cool
+To get cool file for GM12878
+
+wget https://s3.amazonaws.com/4dn-dcic-public/hic-data-analysis-bootcamp/Rao2014-GM12878-MboI-allreps-filtered.5kb.cool
