@@ -33,10 +33,14 @@ Similar to `Musatche`, `WLoops` can be executed in different ways (Please see mo
 
 ### Example executing `WLoops`
 
+- Example of executing using `Weibull` background
+
 `wget ftp://cooler.csail.mit.edu/coolers/hg19/Rao2014-GM12878-MboI-allreps-filtered.5kb.cool`
 
-`mustache -f ./Rao2014-GM12878-MboI-allreps-filtered.5kb.cool -ch chr12 chr19 -r 5kb -pt 0.05 -o cooler_out.tsv`
-
+`python Wloops.py -B W -f ./Rao2014-GM12878-MboI-allreps-filtered.5kb.cool -ch chr21 -r 5kb -pt 0.1 -o output_loops.csv`
+ 
+where -f is our input file, -ch is the subject chromosome, -r is the resolution, and -o is the output file,
+ 
 OR
 
 `mustache -f ./Rao2014-GM12878-MboI-allreps-filtered.5kb.cool -r 5kb -pt 0.05 -o cooler_out.tsv`
