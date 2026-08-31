@@ -9,7 +9,7 @@ We show that the Weibull distribution (not exponential distribution used in the 
 
 `Example chromatin state network file`
 
-![](https://github.com/lncRNAAddict/WLoops/tree/main/Images/Figures.tif)
+![alt_text](https://github.com/lncRNAAddict/WLoops/tree/main/Images/Figures.tif)
 
 
 
