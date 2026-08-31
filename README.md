@@ -23,7 +23,7 @@ Similar to `Musatche`, `WLoops` can be executed in different ways (Please see mo
 - a contact map and a normalization/bias vector
 - .hic file
 - .cool file
-- 
+  
 ### Parameters
 
 `WLoops` takes all the arguments that `Mustache` takes. `WLoops` take one additional argument `-B or --background`.
@@ -33,11 +33,14 @@ Similar to `Musatche`, `WLoops` can be executed in different ways (Please see mo
 
 ### Example executing `WLoops`
 
-`wget ftp://cooler.csail.mit.edu/coolers/hg19/Rao2014-GM12878-MboI-allreps-filtered.5kb.cool
+`wget ftp://cooler.csail.mit.edu/coolers/hg19/Rao2014-GM12878-MboI-allreps-filtered.5kb.cool 
+
 mustache -f ./Rao2014-GM12878-MboI-allreps-filtered.5kb.cool -ch chr12 chr19 -r 5kb -pt 0.05 -o cooler_out.tsv
+
 OR
+
 mustache -f ./Rao2014-GM12878-MboI-allreps-filtered.5kb.cool -r 5kb -pt 0.05 -o cooler_out.tsv`
-For each chromosome, PySmooth Generates the following outputs.
+
 
 
 ### References
