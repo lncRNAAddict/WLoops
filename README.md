@@ -38,7 +38,7 @@ Similar to `Musatche`, `WLoops` can be executed in different ways (Please see mo
 
 ### Example executing `WLoops`
 
-- Example of executing using `Weibull` background
+- Example of executing `WLoops` using `Weibull` background for `chr21`
 
 `wget ftp://cooler.csail.mit.edu/coolers/hg19/Rao2014-GM12878-MboI-allreps-filtered.5kb.cool`
 
@@ -46,9 +46,9 @@ Similar to `Musatche`, `WLoops` can be executed in different ways (Please see mo
  
 where -f is our input file, -ch is the subject chromosome, -r is the resolution, and -o is the output file,
  
-OR
+The following command will execute for all chromosomes
 
-`mustache -f ./Rao2014-GM12878-MboI-allreps-filtered.5kb.cool -r 5kb -pt 0.05 -o cooler_out.tsv`
+`python Wloops.py -B W -f ./Rao2014-GM12878-MboI-allreps-filtered.5kb.cool -r 5kb -pt 0.1 -o output_loops.csv`
 
 
 
