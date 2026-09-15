@@ -39,7 +39,7 @@ Similar to `Musatche`, `WLoops` can be executed in different ways (Please see mo
 
 - Example of executing `WLoops` using `Weibull` background for `chr21`
 
-`wget ftp://cooler.csail.mit.edu/coolers/hg19/Rao2014-GM12878-MboI-allreps-filtered.5kb.cool`
+`wget wget https://s3.amazonaws.com/4dn-dcic-public/hic-data-analysis-bootcamp/Rao2014-GM12878-MboI-allreps-filtered.5kb.cool`
 
 `python Wloops.py -B W -f ./Rao2014-GM12878-MboI-allreps-filtered.5kb.cool -ch chr21 -r 5kb -pt 0.1 -o output_loops.csv`
  
