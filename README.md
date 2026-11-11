@@ -54,4 +54,4 @@ The following command will execute for all chromosomes
 
 ### References
 Roayaei Ardakany A, Gezer HT, Lonardi S, Ay F. 2020. Mustache: multi-scale detection of chromatin loops from Hi-C and Micro-C maps using scale-space representation. Genome Biol. 21(1):256. https://doi.org/10.1186/s13059-020-02167-0.
-
+Soibam B (2026) WLoops: appropriate background model in scale-space representation of Hi-C maps improves detection of chromatin loops. Front. Bioinform. 6:1986674. doi: 10.3389/fbinf.2026.1986674
