@@ -1,6 +1,12 @@
 
 # WLoops
 
+paper:
+
+Soibam B (2026) WLoops: appropriate background model in scale-space representation of Hi-C maps improves detection of chromatin loops. Front. Bioinform. 6:1986674. doi: 10.3389/fbinf.2026.1986674
+
+
+
 Here, we present an adapted and modified version of Mustache (Roayaei Ardakany et al. 2020) called `Wloops` which detects chromatin loops from Hi-C contact maps using the Weibull background distribution to model Difference of Gaussian responses in Hi-C maps.
 
 Mustache detects chromatin loops as blob-like structures in Hi-C contact maps by detecting maxima in Difference-of-Gaussians (DoG) responses in the Hi-C maps. Unlike many loop callers that compute statistical significance directly from raw contact counts, Mustache computes significance from DoG response, treating loops as image features rather than count outliers. Mustache uses an exponential distribution to model the DoG values in a local neighborhood of a loop candidate (Roayaei Ardakany et al. 2020). Therefore, Mustache outperforms the other methods and stands out as a preferred choice for chromatin loop detection. However, the Mustache paper lacks empirical evidence on the choice of background distribution. 
@@ -54,4 +60,5 @@ The following command will execute for all chromosomes
 
 ### References
 Roayaei Ardakany A, Gezer HT, Lonardi S, Ay F. 2020. Mustache: multi-scale detection of chromatin loops from Hi-C and Micro-C maps using scale-space representation. Genome Biol. 21(1):256. https://doi.org/10.1186/s13059-020-02167-0.
+
 Soibam B (2026) WLoops: appropriate background model in scale-space representation of Hi-C maps improves detection of chromatin loops. Front. Bioinform. 6:1986674. doi: 10.3389/fbinf.2026.1986674
